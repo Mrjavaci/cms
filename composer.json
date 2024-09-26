@@ -1,0 +1,19 @@
+{
+    "name": "javaci/virtara-case",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "VirtaraCase\\": "src/VirtaraCase",
+            "App\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "Osman Taha Kıyıcılar",
+            "email": "tr.osmantaha@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*"
+    }
+}

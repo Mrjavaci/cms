@@ -1,0 +1,24 @@
+
+### Create User
+POST https://virtara-case.test/user/store
+Content-Type: application/x-www-form-urlencoded
+
+name = osman &
+surname = taha &
+email = tr.osmantaha@gmail.com &
+phone = 122456790
+
+### Get User
+GET https://virtara-case.test/user/1
+
+### Get User List
+GET https://virtara-case.test/user-list
+
+### Api User List
+GET https://virtara-case.test/api/v1/user/list
+
+### Die Middleware not die
+GET https://virtara-case.test/test-middleware/2
+
+### Die Middleware will die
+GET https://virtara-case.test/test-middleware/1
